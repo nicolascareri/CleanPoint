@@ -1,6 +1,7 @@
-package servlet;
+package servlet.reporte;
 
-import javax.persistence.Entity;
+import servlet.EMF;
+
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 import javax.ws.rs.*;
@@ -10,12 +11,11 @@ import java.util.List;
 
 @Path("/reporte")
 public class ReporteController {
+    private ReporteQuery query = new ReporteQuery();
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Response getReportes(){
-        EntityManager em = EMF.createEntityManager();
-        Query allReportes = em.createQuery("SELECT r FROM Reporte r");
-        List<Reporte> reportes = allReportes.getResultList();
+        List<Reporte> reportes = query.getAll();
         return Response.status(200).entity(reportes).build();
     }
     @Path("/{id}")
@@ -23,19 +23,14 @@ public class ReporteController {
     @Produces(MediaType.APPLICATION_JSON)
     public Response getReporteById(@PathParam("id") String msg){
         int id = Integer.valueOf(msg);
-        EntityManager em = EMF.createEntityManager();
-        Reporte reporte = em.find(Reporte.class, id);
+        Reporte reporte = query.getReporte(id);
         return Response.status(201).entity(reporte).build();
     }
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    public Response createReporte(Reporte reporte){
-        EntityManager em = EMF.createEntityManager();
-        em.getTransaction().begin();
-        em.persist(reporte);
-        em.getTransaction().commit();
-        em.close();
+    public Response createReporte(ReporteParam reporte){
+        query.createReporte(reporte);
         return Response.status(201).entity(null).build();
     }
 }

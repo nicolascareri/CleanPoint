@@ -1,4 +1,6 @@
-package servlet;
+package servlet.item;
+
+import servlet.EMF;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
@@ -9,30 +11,28 @@ import java.util.List;
 
 @Path("/item")
 public class ItemController {
+    private ItemQuery query = new ItemQuery();
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Response getItems() {
-        EntityManager em = EMF.createEntityManager();
-        Query allItems = em.createQuery("SELECT i FROM Item i");
-        List<Item> items = allItems.getResultList();
+        List items = query.getAllItem();
         return Response.status(200).entity(items).build();
     }
+
     @GET
     @Path("/{id}")
     @Produces(MediaType.APPLICATION_JSON)
     public Response getItemById(@PathParam("id") String msg){
         int id = Integer.valueOf(msg);
-        EntityManager em = EMF.createEntityManager();
-        Item item = em.find(Item.class, id);
+        Item item = query.getItem(id);
         return Response.status(200).entity(item).build();
     }
     @GET
-    @Path("/{id}")
+    @Path("/{id}/reciclable")
     @Produces(MediaType.APPLICATION_JSON)
     public Response getItemByIdReciclable(@PathParam("id") String msg){
         int id = Integer.valueOf(msg);
-        EntityManager em = EMF.createEntityManager();
-        Item item = em.find(Item.class, id);
+        Item item = query.getItemReciclable(id);
         return Response.status(200).entity(item.isReciclable()).build();
     }
 
@@ -40,11 +40,7 @@ public class ItemController {
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)
     public Response creataeItem(Item item) {
-        EntityManager em = EMF.createEntityManager();
-        em.getTransaction().begin();
-        em.persist(item);
-        em.getTransaction().commit();
-        em.close();
+        query.createItem(item);
         return Response.status(201).entity(null).build();
     }
 

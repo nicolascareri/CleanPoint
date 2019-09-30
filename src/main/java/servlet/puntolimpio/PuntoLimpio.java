@@ -1,4 +1,6 @@
-package servlet;
+package servlet.puntolimpio;
+
+import servlet.reporte.Reporte;
 
 import javax.persistence.*;
 import java.util.List;

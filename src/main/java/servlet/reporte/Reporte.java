@@ -1,4 +1,7 @@
-package servlet;
+package servlet.reporte;
+
+import servlet.item.Item;
+import servlet.usuario.Usuario;
 
 import javax.persistence.*;
 import java.sql.Date;

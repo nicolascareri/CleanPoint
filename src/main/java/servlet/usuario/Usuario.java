@@ -1,4 +1,4 @@
-package servlet;
+package servlet.usuario;
 
 import javax.persistence.*;
 

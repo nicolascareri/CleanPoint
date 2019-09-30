@@ -1,4 +1,4 @@
-package servlet;
+package servlet.item;
 
 import javax.persistence.*;
 
