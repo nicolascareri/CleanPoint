@@ -26,6 +26,16 @@ public class ItemController {
         Item item = em.find(Item.class, id);
         return Response.status(200).entity(item).build();
     }
+    @GET
+    @Path("/{id}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getItemByIdReciclable(@PathParam("id") String msg){
+        int id = Integer.valueOf(msg);
+        EntityManager em = EMF.createEntityManager();
+        Item item = em.find(Item.class, id);
+        return Response.status(200).entity(item.isReciclable()).build();
+    }
+
     @POST
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)
