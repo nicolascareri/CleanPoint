@@ -8,11 +8,21 @@ public class Item {
     @Column
     int id;
     @Column
+    int cantidad;
+    @Column
     String tipo;
     @Column
     boolean reciclable;
 
     public Item() {
+    }
+
+    public int getCantidad() {
+        return cantidad;
+    }
+
+    public void setCantidad(int cantidad) {
+        this.cantidad = cantidad;
     }
 
     public int getId() {

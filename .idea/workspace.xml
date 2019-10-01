@@ -7,37 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1ef6a90-6926-4a1b-ab31-3e1aa7e49192" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/Ong/Ong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/Ong/OngController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/Ong/OngQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPEArquitectura.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TPEArquitectura.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/ItemController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/PuntoLimpio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/PuntoLimpioController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/Reporte.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/ReporteController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/Usuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/UsuarioController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servlet/item/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/item/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/item/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/item/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/item/ItemQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/item/ItemQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servlet/reporte/Reporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/reporte/Reporte.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteParam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/usuario/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/usuario/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/usuario/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/usuario/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/usuario/UsuarioQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/usuario/UsuarioQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/ItemController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/PuntoLimpio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/PuntoLimpioController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/Reporte.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/ReporteController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/Usuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/UsuarioController.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,40 +48,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/usuario/UsuarioQuery.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+            <state relative-caret-position="1124">
+              <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#0#23#1" expanded="true" />
-                <element signature="e#0#50#0" expanded="true" />
-                <element signature="e#0#86#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/usuario/UsuarioController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteQuery.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#0#23#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,8 +62,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/servlet/item/ItemController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+            <state relative-caret-position="404">
+              <caret line="44" column="5" lean-forward="true" selection-start-line="11" selection-end-line="44" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteQuery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-96">
+              <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            <state relative-caret-position="1008">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,29 +95,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteParam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="56" column="40" lean-forward="true" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+            <state relative-caret-position="236">
+              <caret line="104" column="49" selection-start-line="104" selection-start-column="49" selection-end-line="104" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
+                <element signature="e#904#905#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,8 +126,87 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/servlet/reporte/Reporte.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="740">
+              <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/Ong/Ong.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <folding>
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#561#562#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/item/Item.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="33" />
+              <folding>
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/Ong/OngController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/Ong/OngQuery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#0#19#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -198,12 +242,18 @@
         <option value="$PROJECT_DIR$/src/main/java/servlet/UsuarioController.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlet/item/ItemQuery.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlet/usuario/UsuarioQuery.java" />
-        <option value="$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioQuery.java" />
-        <option value="$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioController.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlet/usuario/UsuarioController.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlet/item/ItemController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteController.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpio.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/item/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/Ong/Ong.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/Ong/OngController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/Ong/OngQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/reporte/Reporte.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteParam.java" />
       </list>
     </option>
@@ -236,8 +286,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,7 +317,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TPEArquitectura" type="b2602c69:ProjectViewProjectNode" />
@@ -278,6 +326,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TPEArquitectura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TPEArquitectura" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="Ong" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TPEArquitectura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TPEArquitectura" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="puntolimpio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TPEArquitectura" type="b2602c69:ProjectViewProjectNode" />
@@ -312,6 +379,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -495,17 +564,19 @@
       <workItem from="1569517146545" duration="12570000" />
       <workItem from="1569532360493" duration="217000" />
       <workItem from="1569868678280" duration="8616000" />
+      <workItem from="1569879898842" duration="123000" />
+      <workItem from="1569894370437" duration="9076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21403000" />
+    <option name="totallyTimeSpent" value="30602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -524,7 +595,7 @@
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32991454" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.49924356" visible="true" weight="0.43931624" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49924356" weight="0.43931624" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -541,15 +612,15 @@
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info id="Persistence" order="0" side_tool="true" />
-      <window_info id="Designer" order="1" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Web" order="6" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="7" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Persistence" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32991454" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
@@ -560,21 +631,21 @@
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32991454" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.49924356" visible="true" weight="0.6700855" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49924356" weight="0.43931624" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Maven" order="2" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Bean Validation" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,16 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlet/EMF.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -657,59 +718,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/item/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/item/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlet/usuario/UsuarioQuery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+        <state relative-caret-position="192">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#0#23#1" expanded="true" />
-            <element signature="e#0#50#0" expanded="true" />
-            <element signature="e#0#86#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlet/usuario/UsuarioController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
+        <state relative-caret-position="432">
           <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -717,17 +738,156 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/OneToMany.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#29#1" expanded="true" />
+            <element signature="e#0#48#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/item/ONG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/item/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="11" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1124">
+          <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/Ong/OngController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/Ong/Ong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/item/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/Ong/OngQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#19#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlet/reporte/Reporte.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="740">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        <state relative-caret-position="1008">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -736,37 +896,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteParam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="56" column="40" lean-forward="true" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+        <state relative-caret-position="236">
+          <caret line="104" column="49" selection-start-line="104" selection-start-column="49" selection-end-line="104" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#0#23#1" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -12,13 +12,27 @@ public class PuntoLimpio {
     int id;
     @Column
     String direccion;
-    @Column
-    @OneToMany
+    @OneToMany(mappedBy = "puntoLimpio")
     List<Reporte> reportes;
-
+    @Column
+    double cargaActual;
+    @Column
+    double cargaMaxima;
     public PuntoLimpio(){
 
     }
+
+    public double getCargaMaxima(){
+        return this.cargaMaxima;
+    }
+    public double getCargaActual() {
+        return cargaActual;
+    }
+
+    public void setCargaActual(double cargaActual) {
+        this.cargaActual = cargaActual;
+    }
+
     public int getId() {
         return id;
     }
@@ -34,7 +48,6 @@ public class PuntoLimpio {
     public List<Reporte> getReportes() {
         return reportes;
     }
-
     public void setReportes(List<Reporte> reportes) {
         this.reportes = reportes;
     }

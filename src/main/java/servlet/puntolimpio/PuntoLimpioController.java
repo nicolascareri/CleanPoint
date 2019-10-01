@@ -1,6 +1,7 @@
 package servlet.puntolimpio;
 
 import servlet.EMF;
+import servlet.reporte.Reporte;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
@@ -31,5 +32,21 @@ public class PuntoLimpioController {
     public Response createPuntoLimpio(PuntoLimpio pl){
         query.createPuntoLimpio(pl);
         return Response.status(201).entity(null).build();
+    }
+    @Path("/{id}/tamaño")
+    @GET
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response isLleno(){
+        List tamaño = query.getVolumen();
+        return Response.status(200).entity(tamaño).build();
+    }
+    @Path("/{id}/reciclado")
+    @GET
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getReportes(@PathParam("id") String msg) {
+        int id = Integer.valueOf(msg);
+        List<Reporte> reportes = query.getReportes(id);
+        return Response.status(201).entity(reportes).build();
     }
 }

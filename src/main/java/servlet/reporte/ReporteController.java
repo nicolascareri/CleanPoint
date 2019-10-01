@@ -1,6 +1,7 @@
 package servlet.reporte;
 
 import servlet.EMF;
+import servlet.puntolimpio.PuntoLimpio;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
@@ -27,9 +28,16 @@ public class ReporteController {
         return Response.status(201).entity(reporte).build();
     }
     @POST
+    @Path("/{id}")
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    public Response createReporte(ReporteParam reporte){
+    public Response createReporte(@PathParam("id") String msg, ReporteParam reporte){
+        int id = Integer.valueOf(msg);
+        EntityManager em = EMF.createEntityManager();
+        PuntoLimpio pl = em.find(PuntoLimpio.class, id);
+        double volumen = reporte.toReporte(em).getVolumen();
+        volumen += pl.getCargaActual();
+        pl.setCargaActual(volumen);
         query.createReporte(reporte);
         return Response.status(201).entity(null).build();
     }

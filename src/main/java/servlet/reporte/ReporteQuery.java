@@ -7,6 +7,7 @@ import javax.persistence.Query;
 import java.util.List;
 
 public class ReporteQuery {
+
     public List<Reporte> getAll(){
         EntityManager em = EMF.createEntityManager();
         Query allReportes = em.createQuery("SELECT r FROM Reporte r");
@@ -14,6 +15,7 @@ public class ReporteQuery {
         em.close();
         return reportes;
     }
+
     public Reporte getReporte(int id){
         EntityManager em = EMF.createEntityManager();
         Reporte reporte = em.find(Reporte.class, id);
