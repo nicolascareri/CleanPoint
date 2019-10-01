@@ -29,6 +29,10 @@ public class Reporte {
     @OneToOne
     Ong ong;
 
+    public Reporte() {
+
+    }
+
     public double getAhorro() {
         return ahorro;
     }
@@ -39,10 +43,6 @@ public class Reporte {
 
     public void setOng(Ong ong) {
         this.ong = ong;
-    }
-
-    public Reporte() {
-
     }
 
     public void setAhorro(double ahorro) {

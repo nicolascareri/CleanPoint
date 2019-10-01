@@ -1,0 +1,29 @@
+[33mcommit 19cf5308d5ca01c2f5f3b15d787f045448391e45[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m
+Author: Nicolás Careri <nicolascareri@gmail.com>
+Date:   Tue Oct 1 01:25:59 2019 -0300
+
+    Agregada clase Ong y hecho servicio de ahorro
+
+[33mcommit 2dfad62a0afe0f4202335e46ed3c1cdb07f18b2b[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Nicolás Careri <nicolascareri@gmail.com>
+Date:   Mon Sep 30 18:09:54 2019 -0300
+
+    Agregado reporte Adapter
+
+[33mcommit 29b49987576712d8f739d1928ad45ef0e10055ca[m
+Author: Nicolás Careri <nicolascareri@gmail.com>
+Date:   Mon Sep 30 17:33:32 2019 -0300
+
+    Agregadas las clases Query para modularizar Controller
+
+[33mcommit 8a1e0dc330701aa49fa880499e4dbc2267ae13c2[m
+Author: Nicolás Careri <nicolascareri@gmail.com>
+Date:   Thu Sep 26 17:38:10 2019 -0300
+
+    Fixeado api y agregados nuevos servicios
+
+[33mcommit 2cff91c9e660820061207d8ef0f9fc198a5f791a[m
+Author: Nicolás Careri <nicolascareri@gmail.com>
+Date:   Thu Sep 26 15:39:51 2019 -0300
+
+    First Commit

@@ -1,6 +1,6 @@
 package servlet;
 
-import javax.persistence.*;
+import javax.persistence.EntityManager;
 import javax.persistence.Persistence;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;

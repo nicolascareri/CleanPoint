@@ -4,7 +4,6 @@ import servlet.EMF;
 import servlet.puntolimpio.PuntoLimpio;
 
 import javax.persistence.EntityManager;
-import javax.persistence.Query;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;

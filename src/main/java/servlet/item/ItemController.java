@@ -18,7 +18,6 @@ public class ItemController {
         List items = query.getAllItem();
         return Response.status(200).entity(items).build();
     }
-
     @GET
     @Path("/{id}")
     @Produces(MediaType.APPLICATION_JSON)
@@ -39,7 +38,7 @@ public class ItemController {
     @POST
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response creataeItem(Item item) {
+    public Response creataItem(Item item) {
         query.createItem(item);
         return Response.status(201).entity(null).build();
     }
