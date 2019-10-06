@@ -10,7 +10,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.List;
 
-@Path("PuntoLimpio")
+@Path("/puntolimpio")
 public class PuntoLimpioController {
     private PuntoLimpioQuery query = new PuntoLimpioQuery();
     @GET

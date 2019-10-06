@@ -34,10 +34,11 @@ public class ReporteController {
         int id = Integer.valueOf(msg);
         EntityManager em = EMF.createEntityManager();
         PuntoLimpio pl = em.find(PuntoLimpio.class, id);
-        double volumen = reporte.toReporte(em).getVolumen();
+        Reporte rep = reporte.toReporte(em);
+        double volumen = rep.getVolumen();
         volumen += pl.getCargaActual();
         pl.setCargaActual(volumen);
-        query.createReporte(reporte);
+        query.createReporte(rep);
         return Response.status(201).entity(null).build();
     }
 }

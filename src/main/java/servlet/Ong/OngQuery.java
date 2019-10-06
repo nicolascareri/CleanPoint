@@ -7,33 +7,15 @@ import java.util.List;
 
 public class OngQuery {
     public List<Ong> getAll(){
-        EntityManager em = EMF.createEntityManager();
-        Query query = em.createQuery("SELECT o from Ong o");
-        List<Ong> ongs = query.getResultList();
-        em.close();
-        return ongs;
+       return OngDAO.getInstance().findAll();
     }
     public Ong getOng(int id){
-        EntityManager em = EMF.createEntityManager();
-        Ong ong = em.find(Ong.class, id);
-        em.close();
-        return ong;
+       return OngDAO.getInstance().findById(id);
     }
-    public void createOng(Ong ong){
-        EntityManager em = EMF.createEntityManager();
-        em.getTransaction().begin();
-        em.persist(ong);
-        em.getTransaction().commit();
-        em.close();
+    public Ong createOng(Ong ong){
+        return OngDAO.getInstance().persist(ong);
     }
     public void setBeneficio(Double beneficio, int id){
-        EntityManager em = EMF.createEntityManager();
-        em.getTransaction().begin();
-
-        Ong ong = em.find(Ong.class, id);
-        ong.setBeneficioRecibido(beneficio);
-
-        em.getTransaction().commit();
-        em.close();
+       OngDAO.getInstance().setBeneficio(beneficio, id);
     }
 }

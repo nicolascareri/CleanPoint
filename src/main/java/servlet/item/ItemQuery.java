@@ -7,32 +7,18 @@ import java.util.List;
 
 public class ItemQuery {
     public List<Item> getAllItem(){
-        EntityManager em = EMF.createEntityManager();
-        Query allItems = em.createQuery("SELECT i FROM Item i");
-        List<Item> items = allItems.getResultList();
-        em.close();
-        return items;
+        return ItemDAO.getInstance().findAll();
     }
 
     public Item getItem(int id){
-        EntityManager em = EMF.createEntityManager();
-        Item item = em.find(Item.class, id);
-        em.close();
-        return item;
+        return ItemDAO.getInstance().findById(id);
     }
 
     public Item getItemReciclable(int id){
-        EntityManager em = EMF.createEntityManager();
-        Item item = em.find(Item.class, id);
-        em.close();
-        return item;
+        return ItemDAO.getInstance().getItemReciclable(id);
     }
 
-    public void createItem(Item item){
-        EntityManager em = EMF.createEntityManager();
-        em.getTransaction().begin();
-        em.persist(item);
-        em.getTransaction().commit();
-        em.close();
+    public Item createItem(Item item){
+        return ItemDAO.getInstance().persist(item);
     }
 }

@@ -7,36 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1ef6a90-6926-4a1b-ab31-3e1aa7e49192" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TPEArquitectura.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/DAO/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/Ong/OngDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/item/ItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/usuario/UsuarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TPEArquitectura.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TPEArquitectura.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/item/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/item/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/item/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/item/ItemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/puntolimpio/PuntoLimpio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/puntolimpio/PuntoLimpio.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/puntolimpio/PuntoLimpioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/puntolimpio/PuntoLimpioController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/puntolimpio/PuntoLimpioQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/puntolimpio/PuntoLimpioQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/reporte/Reporte.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/reporte/Reporte.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/reporte/ReporteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/reporte/ReporteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/reporte/ReporteParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/reporte/ReporteParam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/reporte/ReporteQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TPEArquitectura_war_exploded/WEB-INF/classes/servlet/reporte/ReporteQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/EMF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/EMF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/item/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/item/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/reporte/Reporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/reporte/Reporte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/Ong/OngQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/Ong/OngQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/item/ItemQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/item/ItemQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/TPEArquitectura.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/item/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/item/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/item/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/item/ItemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/puntolimpio/PuntoLimpio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/puntolimpio/PuntoLimpio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/reporte/ReporteQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/usuario/UsuarioQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/usuario/UsuarioQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/servlet/puntolimpio/PuntoLimpioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/puntolimpio/PuntoLimpioController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/puntolimpio/PuntoLimpioQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/puntolimpio/PuntoLimpioQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/reporte/Reporte.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/reporte/Reporte.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/reporte/ReporteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/reporte/ReporteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/reporte/ReporteParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/reporte/ReporteParam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/reporte/ReporteQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/reporte/ReporteQuery.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +52,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -273,7 +262,9 @@
       <workItem from="1569879898842" duration="123000" />
       <workItem from="1569894370437" duration="9076000" />
       <workItem from="1569947239786" duration="8247000" />
-      <workItem from="1569956486699" duration="2928000" />
+      <workItem from="1569956486699" duration="4257000" />
+      <workItem from="1570131467510" duration="7141000" />
+      <workItem from="1570365717863" duration="3075000" />
     </task>
     <servers />
   </component>
@@ -285,7 +276,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
