@@ -26,6 +26,7 @@ public class UsuarioController {
     @Produces(MediaType.APPLICATION_JSON)
     public Response getUsuarios() {
         List<Usuario> usuarios = query.getAll();
+
         return Response.status(200).entity(usuarios).build();
     }
     @GET
