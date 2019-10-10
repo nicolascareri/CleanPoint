@@ -54,4 +54,18 @@ public class UsuarioController {
         query.createUsuario(usuario);
         return Response.status(201).entity(null).build();
     }
+    @DELETE
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response deleteAllusuarios(){
+        query.deleteUsuarios();
+        return Response.status(200).entity(null).build();
+    }
+    @Path("/{id}")
+    @DELETE
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response deleteUsuario(@PathParam("id") String msg) {
+        int id = Integer.valueOf(msg);
+        query.deleteUsuario(id);
+        return Response.status(200).entity(null).build();
+    }
 }

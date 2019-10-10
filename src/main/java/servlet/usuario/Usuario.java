@@ -1,6 +1,9 @@
 package servlet.usuario;
 
+import servlet.reporte.Reporte;
+
 import javax.persistence.*;
+import java.util.Collection;
 
 @Entity
 public class Usuario {
@@ -45,4 +48,5 @@ public class Usuario {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
+
 }

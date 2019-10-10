@@ -44,22 +44,41 @@ public class UsuarioDAO implements DAO<Usuario, Integer> {
         return usuario;
     }
 
-    public Usuario delete(Integer integer) {
-        return null;
-    }
     public List<Reporte> getReportes(Integer id){
         EntityManager em = EMF.createEntityManager();
+        em.getTransaction().begin();
         Query allReportes = em.createQuery("SELECT r.item FROM Reporte r WHERE r.usuario = :id ");
         allReportes.setParameter("id", id);
         List<Reporte> reportes = allReportes.getResultList();
+        em.getTransaction().commit();
         em.close();
         return reportes;
     }
+
     public List<Usuario> findAll() {
         EntityManager em = EMF.createEntityManager();
         Query allUsuarios = em.createQuery("SELECT u FROM Usuario u");
         List<Usuario> usuarios = allUsuarios.getResultList();
         em.close();
         return usuarios;
+    }
+
+    public void deleteAll() {
+        EntityManager em = EMF.createEntityManager();
+        em.getTransaction().begin();
+        Query query = em.createNativeQuery("DELETE FROM Usuario");
+        query.executeUpdate();
+        em.getTransaction().commit();
+        em.close();
+    }
+    public Usuario delete(Integer integer) {
+        EntityManager em = EMF.createEntityManager();
+        em.getTransaction().begin();
+        Query deleteUsuario = em.createQuery("DELETE FROM Usuario u WHERE u.id = :integer");
+        deleteUsuario.setParameter("integer", integer);
+        deleteUsuario.executeUpdate();
+        em.getTransaction().commit();
+        em.close();
+        return null;
     }
 }

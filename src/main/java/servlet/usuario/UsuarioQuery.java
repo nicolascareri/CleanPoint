@@ -28,4 +28,12 @@ public class UsuarioQuery {
     public void createUsuario(Usuario usuario){
         UsuarioDAO.getInstance().persist(usuario);
     }
+
+    public void deleteUsuarios() {
+        UsuarioDAO.getInstance().deleteAll();
+    }
+
+    public void deleteUsuario(int id) {
+        UsuarioDAO.getInstance().delete(id);
+    }
 }

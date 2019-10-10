@@ -25,6 +25,9 @@ public class PuntoLimpio {
     public double getCargaMaxima(){
         return this.cargaMaxima;
     }
+    public void setCargaMaxima(double carga){
+        this.cargaMaxima = carga;
+    }
     public double getCargaActual() {
         return cargaActual;
     }
