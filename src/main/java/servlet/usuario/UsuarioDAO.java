@@ -26,7 +26,7 @@ public class UsuarioDAO implements DAO<Usuario, Integer> {
     public List<Reporte> getReportesByFecha(Integer id, Date f1, Date f2){
         EntityManager em = EMF.createEntityManager();
         Query allReportes = em.createQuery("SELECT r.item FROM Reporte r " +
-                "WHERE r.usuario = :id " +
+                "WHERE r.usuario.id = :id " +
                 "AND r.fechaAlta BETWEEN :f1 AND :f2");
         allReportes.setParameter("id", id);
         allReportes.setParameter("f1", f1);
@@ -47,7 +47,7 @@ public class UsuarioDAO implements DAO<Usuario, Integer> {
     public List<Reporte> getReportes(Integer id){
         EntityManager em = EMF.createEntityManager();
         em.getTransaction().begin();
-        Query allReportes = em.createQuery("SELECT r.item FROM Reporte r WHERE r.usuario = :id ");
+        Query allReportes = em.createQuery("SELECT r.item FROM Reporte r WHERE r.usuario.id = :id ");
         allReportes.setParameter("id", id);
         List<Reporte> reportes = allReportes.getResultList();
         em.getTransaction().commit();
