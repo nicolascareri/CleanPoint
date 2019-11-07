@@ -20,6 +20,7 @@ public class PuntoLimpioController {
         return Response.status(200).entity(allPL).build();
     }
     @Path("/{id}")
+    @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Response getPuntoLimpioById(@PathParam("id") String msg){
         int id = Integer.valueOf(msg);

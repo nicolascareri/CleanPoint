@@ -7,6 +7,7 @@ import servlet.reporte.Reporte;
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class PuntoLimpioDAO implements DAO<PuntoLimpio, Integer> {
     private static PuntoLimpioDAO daoPuntoLimpio;
@@ -20,8 +21,14 @@ public class PuntoLimpioDAO implements DAO<PuntoLimpio, Integer> {
     public PuntoLimpio findById(Integer id) {
         EntityManager em = EMF.createEntityManager();
         PuntoLimpio pl = em.find(PuntoLimpio.class, id);
+        PuntoLimpio pl1 = new PuntoLimpio();
+        pl1.setCargaMaxima(pl.getCargaMaxima());
+        pl1.setReportes(pl.getReportes().stream().map(Reporte::copiar).collect(Collectors.toList()));
+        pl1.setDireccion(pl.getDireccion());
+        pl1.setCargaActual(pl.getCargaActual());
+        pl1.setId(pl.getId());
         em.close();
-        return pl;
+        return pl1;
     }
 
     public PuntoLimpio persist(PuntoLimpio pl) {
