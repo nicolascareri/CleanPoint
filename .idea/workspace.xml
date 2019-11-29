@@ -2,14 +2,28 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="TPEArquitectura:war exploded" />
+      <artifact name="CleanPoint:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1ef6a90-6926-4a1b-ab31-3e1aa7e49192" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CleanPoint.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/TPEArquitectura_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/CleanPoint_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/puntolimpio/PuntoLimpioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CleanPoint-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/CleanPoint-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CleanPoint-1.0-SNAPSHOT/WEB-INF/classes/servlet/usuario/UsuarioDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CleanPoint-1.0-SNAPSHOT/WEB-INF/classes/servlet/usuario/UsuarioDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CleanPoint-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.5.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CleanPoint-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.5.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CleanPoint-1.0-SNAPSHOT/WEB-INF/lib/jackson-jaxrs-base-2.5.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CleanPoint-1.0-SNAPSHOT/WEB-INF/lib/jackson-jaxrs-json-provider-2.5.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CleanPoint-1.0-SNAPSHOT/WEB-INF/lib/jackson-module-jaxb-annotations-2.5.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CleanPoint-1.0-SNAPSHOT/WEB-INF/lib/jersey-entity-filtering-2.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CleanPoint-1.0-SNAPSHOT/WEB-INF/lib/jersey-media-json-jackson-2.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servlet/usuario/UsuarioDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/usuario/UsuarioDAO.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,11 +78,15 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringBoot" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,9 +95,10 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunDashboard">
@@ -94,13 +113,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Tomcat 9.0.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jre1.8.0_221" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.App">
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="CleanPoint" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="servlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="servlet.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jre1.8.0_231" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/CleanPoint/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="TPEArquitectura:war exploded">
+        <artifact name="CleanPoint:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/puntolimpio" />
+            <option name="CONTEXT_PATH" value="/CleanPoint" />
           </settings>
         </artifact>
       </deployment>
@@ -164,7 +197,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="TPEArquitectura:war exploded" />
+          <artifact name="CleanPoint:war exploded" />
         </option>
       </method>
     </configuration>
@@ -230,6 +263,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.App" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.24" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -255,6 +297,8 @@
       <workItem from="1570735841939" duration="9699000" />
       <workItem from="1571682425902" duration="580000" />
       <workItem from="1573150590238" duration="1964000" />
+      <workItem from="1573757462275" duration="4988000" />
+      <workItem from="1573767661099" duration="5872000" />
     </task>
     <servers />
   </component>
