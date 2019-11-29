@@ -31,7 +31,7 @@ En el package API se encuentran las clases que se utilizaron para crear los endp
 
 El modelo de datos de la aplicación se encuentra de la siguiente manera:
 
-![Diagrama Entidad Relación](TPE-Diagrama.png)
+![Diagrama Entidad Relación](DiagramaEntidadRelacion.png)
 
 ## API ##
 
