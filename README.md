@@ -22,10 +22,8 @@
 
 ## Sistema ##
 
- El sistema está compuesto por diversos package en los cuales se encuentran cada una de las distintas responsabilidades, estas son las siguientes:
-Las clases base están distribuidas en los package abstracts, basura, puntos, users, organizaciones.
-En el package test se realizaron todo los testeos de los package antes mencionados.
-En el package API se encuentran las clases que se utilizaron para crear los endpoints de la API. Dentro del package testAPI se realizaron los testeos correspondientes. 
+ El sistema está compuesto por diversos packages separados por módulos: Usuario, reporte, puntolimpio, etc
+ Cada módulo se subdivide en packages separando por las diferentes capas y responsabilidades desde la exposición de los servicios hasta la persistencia sobre la base de datos
 
 ## Modelo de datos ##
 
@@ -59,11 +57,11 @@ El modelo de datos de la aplicación se encuentra de la siguiente manera:
 
 | Endpoint | Método | Utilidad |
 |---|---|---|
-| /Reporte/  | GET | Obtener todos los reportes |  
-| /Reporte/{id}  | GET  | Obtener un reporte por ID  |
-| /Reporte/  | POST   | Crea un nuevo reporte |  
-| /Reporte/  | DELETE  | Elimina todos los reportes  |
-| /Reporte/{id}  | DELETE  | Elimina un reporte por ID  |
+| /reporte/  | GET | Obtener todos los reportes |  
+| /reporte/{id}  | GET  | Obtener un reporte por ID  |
+| /reporte/  | POST   | Crea un nuevo reporte |  
+| /reporte/  | DELETE  | Elimina todos los reportes  |
+| /reporte/{id}  | DELETE  | Elimina un reporte por ID  |
 
 ### Item ###
 
